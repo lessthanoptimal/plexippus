@@ -18,5 +18,5 @@ gversion {
 }
 
 dependencies {
-
+    api(libs.ejml.core)
 }
