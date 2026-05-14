@@ -1,5 +1,3 @@
-// Copyright (c) 2026 NINOX 360 LLC. Licensed under the BSD 3-Clause; see LICENSE.TXT in project root
-
 import org.gradle.api.tasks.testing.logging.TestExceptionFormat
 
 plugins {
@@ -88,7 +86,7 @@ configure<com.diffplug.gradle.spotless.SpotlessExtension> {
         target("**/java//**/*.java")
 
         // Auto generated file that doesn't require copyright
-        targetExclude("src/main/java/com/ninox360/refvins/ReferenceVinsVersion.java")
+        targetExclude("src/main/java/org/plexippus/PlexippusVersion.java")
 
         toggleOffOn("formatter:off", "formatter:on")
         removeUnusedImports()
